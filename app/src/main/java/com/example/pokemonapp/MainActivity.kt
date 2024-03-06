@@ -1,3 +1,6 @@
+// Braydon Lynch
+// W0483329
+
 package com.example.pokemonapp
 
 import android.os.Bundle
