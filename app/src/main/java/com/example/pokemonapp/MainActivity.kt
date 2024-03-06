@@ -32,6 +32,7 @@ import androidx.compose.ui.text.style.TextOverflow
 //import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.example.pokemonapp.models.Pokemon
 import com.example.pokemonapp.ui.theme.PokemonAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -45,7 +46,7 @@ class MainActivity : ComponentActivity() {
         mainViewModel = MainViewModel()
 
         // Load the Pokemon from API
-        mainViewModel.updatePokemon("Pikachu")
+        mainViewModel.updatePokemon("pikachu")
 
         setContent {
             PokemonAppTheme {
